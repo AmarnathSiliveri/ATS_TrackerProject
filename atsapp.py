@@ -3,6 +3,8 @@ import google.generativeai as genai
 import os
 import PyPDF2 as pdf
 from dotenv import load_dotenv
+import json
+
 load_dotenv()
 
 genai.configure(api_key=os.getenv("GOOGLE_API_KEY"))
@@ -28,15 +30,18 @@ Hey Act Like a skilled or very experience ATS(Application Tracking System)
 with a deep understanding of tech field,software engineering,data science ,data analyst
 and big data engineer. Your task is to evaluate the resume based on the given job description.
 You must consider the job market is very competitive and you should provide 
-best assistance for improving thr resumes. Assign the percentage Matching based 
+best assistance for improving the resumes. Assign the percentage Matching based 
 on Jd and
-the missing keywords with high accuracy
+the missing keywords with high accuracy and classify the missing words in levels of impact in decreasing fashion  and also provide some course recommendations for the job description to reach include free and paid classify them based on current market trends
 resume:{text}
 description:{jd}
 
-I want the response in one single string having the structure
-{{"JD Match":"%","MissingKeywords:[]","Profile Summary":""}}
+I want the response in topic-subtopic formats having the structure
+{{"Job Description Match":"%","MissingKeywords:[]","Profile Summary":"","Course Recommendations":""}}
 """
+
+
+
 
 #streamlit app
 st.title("Smart ATS")
@@ -50,6 +55,6 @@ if submit:
     if uploaded_file is not None:
         text=input_pdf_text(uploaded_file)
         response=get_gemini_response(input_prompt)
-        st.subheader(response)
+        st.write(response)
 
 
