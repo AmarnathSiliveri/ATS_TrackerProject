@@ -3,7 +3,7 @@ import google.generativeai as genai
 import os
 import PyPDF2 as pdf
 from dotenv import load_dotenv
-from streamlit_lottie import st_lottie
+
 load_dotenv()
 from streamlit_option_menu import option_menu
 
