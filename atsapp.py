@@ -7,7 +7,7 @@ from streamlit_lottie import st_lottie
 load_dotenv()
 from streamlit_option_menu import option_menu
 
-genai.configure(api_key=os.getenv("GOOGLE_API_KEY"))
+genai.configure(api_key=st.secrets['API_KEY'])
 #streamlit app
 st.set_page_config(page_title="RESume ATS", page_icon='💼')  # page title
 # Define CSS styling
