@@ -2,3 +2,4 @@ streamlit
 PyPdf2
 google.generativeai
 python-dotenv
+streamlit_option_menu
