@@ -66,7 +66,7 @@ Developed by Amarnath Siliveri. Connect with me on:
 
 <p align="center">
   <a href="https://www.github.com/SilverStark18" target="_blank" rel="noreferrer">
-    <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/github.svg" width="32" height="32" alt="GitHub" />
+    <img src="https://cdn-icons-png.flaticon.com/128/270/270798.png" width="32" height="32" alt="GitHub" />
   </a>
   &nbsp;
   <a href="http://www.instagram.com/itz..amar." target="_blank" rel="noreferrer">
@@ -78,14 +78,14 @@ Developed by Amarnath Siliveri. Connect with me on:
   </a>
   &nbsp;
   <a href="https://medium.com/@amartalks25603" target="_blank" rel="noreferrer">
-    <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/medium.svg" width="32" height="32" alt="Medium" />
+    <img src="https://cdn-icons-png.flaticon.com/128/5968/5968933.png" width="32" height="32" alt="Medium" />
   </a>
   &nbsp;
   <a href="https://www.x.com/Amarsiliveri" target="_blank" rel="noreferrer">
-    <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/twitter.svg" width="32" height="32" alt="Twitter" />
+    <img src="https://cdn-icons-png.flaticon.com/128/5969/5969020.png" width="32" height="32" alt="Twitter" />
   </a>
   &nbsp;
   <a href="https://www.threads.net/@itz..amar." target="_blank" rel="noreferrer">
-    <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/threads.svg" width="32" height="32" alt="Threads" />
+    <img src="https://cdn-icons-png.flaticon.com/128/12105/12105338.png" width="32" height="32" alt="Threads" />
   </a>
 </p>
